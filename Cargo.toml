@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# Async runtime
+tokio = { version = "1.39.2", features = ["full"] }
+
+# HTTP server
+axum = "0.7.5"
+
+# Webhook body deserialization
+serde_json = "1.0.121"
